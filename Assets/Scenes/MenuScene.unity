@@ -476,7 +476,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 706102436}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1803265253}
+        m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
+        m_MethodName: PlayGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &414086897
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -913,6 +925,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1429406096}
+  - component: {fileID: 1429406097}
   m_Layer: 5
   m_Name: BorderBackground
   m_TagString: Untagged
@@ -943,6 +956,18 @@ RectTransform:
   m_AnchoredPosition: {x: 0.00015259, y: 0}
   m_SizeDelta: {x: 637, y: 398}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1429406097
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1429406095}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1473952141a3814a909935b9f198987, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1476951975
 GameObject:
   m_ObjectHideFlags: 0
@@ -1633,6 +1658,7 @@ GameObject:
   - component: {fileID: 1803265250}
   - component: {fileID: 1803265252}
   - component: {fileID: 1803265251}
+  - component: {fileID: 1803265253}
   m_Layer: 5
   m_Name: MainMenu
   m_TagString: Untagged
@@ -1702,6 +1728,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1803265249}
   m_CullTransparentMesh: 1
+--- !u!114 &1803265253
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1803265249}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1473952141a3814a909935b9f198987, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1903977476
 GameObject:
   m_ObjectHideFlags: 0
